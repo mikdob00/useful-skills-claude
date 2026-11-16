@@ -1,0 +1,15 @@
+{
+  "name": "useful-skills-claude",
+  "description": "Przydatne skille do Claude Code.",
+  "owner": {
+    "name": "mikdob00"
+  },
+  "plugins": [
+    {
+      "name": "zadanie-git",
+      "source": "./skills/zadanie-git",
+      "strict": false,
+      "description": "Pisze issue na GitHubie w stałym schemacie dla ludzi i agentów: szkic od razu, rundy pytań o luki, założenie przez gh dopiero po „załóż”."
+    }
+  ]
+}
